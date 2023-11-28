@@ -47,6 +47,7 @@ def restaurant_list(restaurant):
     },
         hide_index=False,
     )
+    return res_df
 
 def progress_bar():
     progress_text = "👴🏻正给你选着呢..."
@@ -64,7 +65,8 @@ if __name__ == '__main__':
     """)
 
     restaurant = read_restaurant()
-    restaurant_list(restaurant)
+    df = restaurant_list(restaurant)
+    
     
 
     random_select()
