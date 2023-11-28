@@ -13,7 +13,7 @@ def show_textbox():
     
     txt = st.text_area(
         "餐厅的名儿：",
-        placeholder='好好打你那个餐厅的名字，别到时候又要去删'
+        placeholder='好好打你那个餐厅的名字，别到时候又要去删。悄悄再告诉你换行可以批量加哦'
             )
     
     #st.write(f'You wrote {len(txt)} characters.')
